@@ -60,9 +60,8 @@ body{
 }
 
 
-.fooer a{
-    color:grey;
-    
+.footer a{
+    color:grey
 }
 
 .right{
@@ -84,10 +83,12 @@ body{
 }
 
 .cardContainer{
-    margin: 10px;
+    margin: 30px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    overflow: scroll;
+    max-height: 70vh;
 
 }
 
@@ -104,7 +105,7 @@ body{
 }
 
 .card img{
-    width: 100px;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -139,7 +140,7 @@ body{
     font-size: 16px;
 }
 
-.signupbtn hover{
+.signupbtn:hover{
     font-size: 17px;
     color: white;
 
@@ -147,7 +148,17 @@ body{
 
 .loginbtn{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 21px;
     color: black;
     font-weight: bold;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbtn:hover{
+    font-weight: bold;
+    padding: 10px 14px;
+    font-size: 17px;
 }
