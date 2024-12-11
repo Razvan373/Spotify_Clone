@@ -28,10 +28,12 @@ body {
     width: 75vw;
 }
 
+
+
 .home ul li {
     display: flex;
     gap: 15px;
-    width: 20px;
+    width: 14px;
     list-style: none;
     padding-top: 14px;
     font-weight: bold;
@@ -101,7 +103,7 @@ body {
     gap: 10px;
     flex-wrap: wrap;
     overflow-y: auto;
-    max-height: 60vh; 
+    max-height: 60vh;
 }
 
 .card {
@@ -358,7 +360,7 @@ body {
     }
 
     .playbar {
-        width: calc(100vw - 75px); 
+        width: calc(100vw - 75px);
     }
 
     .seekbar {
@@ -379,7 +381,7 @@ body {
 
     .cardContainer {
         margin: 0;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .close {
@@ -428,11 +430,11 @@ body {
         height: 85vh;
     }
 
-    .left{ 
+    .left{
         width: 100vw;
     }
 
- 
 
-    
+
+
 }
